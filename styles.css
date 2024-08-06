@@ -4,6 +4,15 @@ body {
     padding: 0px; 
     outline: none;
     border: 0px;
+    
+}
+
+.t{
+    margin: 0px;
+    padding: 0px; 
+    outline: none;
+    border: 0px;
+    padding-top: 10px;
 }
 
 
@@ -91,6 +100,8 @@ h1{
     align-items: center;
     flex-direction: row;
     
+    
+    
 
 }
 
@@ -99,6 +110,8 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-left: 300px;
+    
    
 }
 
@@ -116,6 +129,8 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-right: 300px;
+    
     
 }
 
