@@ -1,0 +1,240 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(122, 1, 156), rgb(69, 24, 137));
+    margin: 0px;
+    padding: 0px; 
+    outline: none;
+    border: 0px;
+    
+}
+
+.t{
+    margin: 0px;
+    padding: 0px; 
+    outline: none;
+    border: 0px;
+    padding-top: 10px;
+}
+
+
+a{
+    color: antiquewhite;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "Arial";
+    
+}
+   
+p{
+    color: antiquewhite;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "Arial";
+}
+
+h3{
+    color: antiquewhite;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "Arial";
+}
+
+h1{
+    color: antiquewhite;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "Arial";
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.fundoImagemTitulo{
+    display: flex;
+    justify-content: center;
+}
+
+.imagemTitulo{
+    width: 200px;
+    height: 200px;
+    border: solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.tituloEscolaridade{
+    display: flex;
+    justify-content: center;  
+}
+
+.escolaridade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.escPost1{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(126, 227, 126) 3px;
+    border-radius: 20%;
+}
+
+
+
+.escPost2{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(126, 227, 126) 3px;
+    border-radius: 20%;  
+}
+
+.tituloGostos{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.gostosPessoaisHobbies{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    
+    
+    
+
+}
+
+.gosPost1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 300px;
+    
+   
+}
+
+.imgGos1{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(126, 227, 126) 3px;
+    border-radius: 20%;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gosPost2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 300px;
+    
+    
+}
+
+.imgGos2{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(126, 227, 126) 3px;
+    border-radius: 20%;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gosPost3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    
+}
+
+.imgGos3{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(126, 227, 126) 3px;
+    border-radius: 20%;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tituloRedes{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.redPost1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    
+}
+
+.redImg1{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(126, 227, 126) 3px;
+    border-radius: 20%;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.redPost2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    
+}
+
+.redImg2{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(126, 227, 126) 3px;
+    border-radius: 20%;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.redPost3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+
+    
+}
+
+.redImg3{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(126, 227, 126) 3px;
+    border-radius: 20%;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding: auto;
+}
