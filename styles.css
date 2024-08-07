@@ -93,6 +93,8 @@ h1{
     flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .escPost1{
@@ -124,6 +126,8 @@ h1{
     flex-direction: row;
     text-align: center;
     flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
    
     
     
@@ -286,5 +290,7 @@ h1{
     padding-top: 60px;
     text-align: center;
     flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
