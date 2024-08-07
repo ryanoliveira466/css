@@ -186,6 +186,8 @@ h1{
     padding-top: 60px;
     text-align: center;
     flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .imgGos3{
