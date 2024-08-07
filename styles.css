@@ -2,10 +2,28 @@ body {
     background-image: linear-gradient(to bottom right, rgb(122, 1, 156), rgb(69, 24, 137));
     margin: 0px;
     padding: 0px; 
-    outline: none;
-    border: 0px;
+    box-sizing: border-box;
+ 
+    
     
 }
+
+@media (max-width: 706px) {
+    /* Styles for small screens */
+    .gosPost2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+       
+         
+        
+        
+    }
+}
+
+
 
 .t{
     margin: 0px;
@@ -57,6 +75,9 @@ h1{
     border: solid transparent;
     border-radius: 50%;
     overflow: hidden;
+    flex-shrink: 0;
+    
+     
     
 }
 
@@ -70,6 +91,8 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .escPost1{
@@ -99,6 +122,9 @@ h1{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+   
     
     
     
@@ -110,7 +136,7 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+  
     
    
 }
@@ -122,6 +148,8 @@ h1{
     border-radius: 20%;  
     padding-left: 10px;
     padding-right: 10px;
+    flex-shrink: 0;
+     
 }
 
 .gosPost2{
@@ -129,7 +157,8 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+   
+     
     
     
 }
@@ -141,6 +170,8 @@ h1{
     border-radius: 20%;  
     padding-left: 10px;
     padding-right: 10px;
+    flex-shrink: 0;
+    
 }
 
 .gosPost3{
@@ -149,7 +180,8 @@ h1{
     align-items: center;
     flex-direction: column;
     padding-top: 60px;
-    
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .imgGos3{
@@ -159,6 +191,8 @@ h1{
     border-radius: 20%;  
     padding-left: 10px;
     padding-right: 10px;
+    flex-shrink: 0;
+    
 }
 
 .tituloRedes{
@@ -173,6 +207,11 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    
+    
+   
     
 }
 
@@ -182,6 +221,8 @@ h1{
     align-items: center;
     flex-direction: column;
     margin: 1rem;
+  
+    
     
 }
 
@@ -192,6 +233,8 @@ h1{
     border-radius: 20%;  
     padding-left: 10px;
     padding-right: 10px;
+    flex-shrink: 0;
+   
 }
 
 .redPost2{
@@ -200,6 +243,8 @@ h1{
     align-items: center;
     flex-direction: column;
     margin: 1rem;
+   
+    
     
 }
 
@@ -210,6 +255,7 @@ h1{
     border-radius: 20%;  
     padding-left: 10px;
     padding-right: 10px;
+    flex-shrink: 0;
 }
 
 .redPost3{
@@ -218,6 +264,7 @@ h1{
     align-items: center;
     flex-direction: column;
     margin: 1rem;
+   
 
     
 }
@@ -229,6 +276,7 @@ h1{
     border-radius: 20%;  
     padding-left: 10px;
     padding-right: 10px;
+    flex-shrink: 0;
 }
 
 
@@ -236,5 +284,7 @@ h1{
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    padding: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    
 }
